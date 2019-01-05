@@ -21,7 +21,7 @@ Repertoires :
 
 - test => contient les données de test
 
-- models => contient les models (fs_normal = model entrainé uniquement sur les données autism / asthma,  fs_normal_ncbi = model entrainée sur autism/asthm + NCBICorpus (epoch_99_mix) et uniquement NCBICorpus (epoch_71_best_model) )
+- models => contient les models (fs_normal = model entrainé uniquement sur les données autism / asthma,  fs_normal_ncbi = model entrainée sur autism/asthm + NCBICorpus (epoch_99_mix) et uniquement NCBICorpus (epoch_71_best_model))
 
 Scripts : 
 
@@ -35,9 +35,9 @@ Scripts :
 
 Fichiers : 
 
-- list_genes.text => Fichier final contenant tous les genes (obtenu grace aux codes du repertoire "data_aggregation" )
+- list_genes.text => Fichier final contenant tous les genes (obtenu grace aux codes du repertoire "data_aggregation")
 
-- list_maladies.text => Fichier final contenant toutes les maladies (obtenu grace aux codes du repertoire "data_aggregation" )
+- list_maladies.text => Fichier final contenant toutes les maladies (obtenu grace aux codes du repertoire "data_aggregation")
 
 - NBCItestset_corpus.txt => Fichiers des données de test de NBCICorpus (avant traitement) 
 
