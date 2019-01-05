@@ -17,19 +17,19 @@ Repertoires :
 
 - data_aggregation => contient tout le code qui nous a permis de collecter les genes/maladies
 
-- train => contient les données d'entraintement (supprimé dans ce depot mais qui être reproduit facilement en executant le code dans create_dataset.ipynb)
+- train => contient les données d'entrainement (supprimé dans ce depot afin d'eviter d'avoir un depot trop lourd au moment du clone, mais qui peut être facilement reproduit en executant create_dataset.ipynb)
 
 - test => contient les données de test
 
-- models => contient les models (fs_normal = model entrainé uniquement sur les données autism / asthma,  fs_normal_ncbi = model entrainée sur autism/asthm + NCBICorpus et juste NCBICorpus )
+- models => contient les models (fs_normal = model entrainé uniquement sur les données autism / asthma,  fs_normal_ncbi = model entrainée sur autism/asthm + NCBICorpus (epoch_99_mix) et uniquement NCBICorpus (epoch_71_best_model) )
 
 Scripts : 
 
-- creata_dataset.ipynb => Script de creations des different dataset (train/test)
+- creata_dataset.ipynb => Script de creation des different dataset (train/test)
 
 - train_fromscratch.py => script pour le training des models
 
-- eval_ner.ipynb => scritp des differents evaluation des models
+- eval_ner.ipynb => scritp des differents evaluations des models
 
 - api.py => permet de faire tourner l'api de prediction pour le site
 
