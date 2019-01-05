@@ -27,7 +27,7 @@ Scripts :
 
 - creata_dataset.ipynb => Script de creation des different dataset (train/test)
 
-- train_fromscratch.py => script pour le training des models
+- train.py => script pour le training des models
 
 - eval_ner.ipynb => scritp des differents evaluations des models
 
