@@ -5,6 +5,8 @@ L’objectif est d’entrainer un modele Spacy a reconnaitre deux types d’enti
 
 Tester le model : http://textmining.yannistannier.io
 
+Rapport : 
+
 
 Meilleur model (en ligne sur le site) : fs_normal/best_model
 
