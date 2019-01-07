@@ -24,7 +24,7 @@ Repertoires :
 
 - test => contient les données de test
 
-- models => contient les models (fs_normal = model entrainé uniquement sur les données autism / asthma,  fs_normal_ncbi = model entrainée sur autism/asthm + NCBICorpus (epoch_99_mix) et uniquement NCBICorpus (epoch_71_best_model))
+- models => contient les models (fs_normal = model entrainé uniquement sur les données autism,  fs_normal_ncbi = model entrainée sur autism + NCBICorpus (epoch_99_mix) et uniquement NCBICorpus (epoch_71_best_model))
 
 Scripts : 
 
